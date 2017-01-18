@@ -111,10 +111,10 @@ class StreamListener(tweepy.StreamListener):
             #try to see where is the url redirected to
             try:
                 response= ul.urlopen(exp_url)
+                url=response.geturl()
             except:
                 url=exp_url
-            else:
-                url=response.geturl()
+                
             
             #if the url leads to an arxiv paper, add it to the table
             match=id_from_url(url)
