@@ -1,7 +1,7 @@
 # Science on Twitter
 ### What are the most popular Arxiv papers on Twitter? 
 
-To find out what is hot right now, this code listenes to the stream of Twitter statuses with keyword 'arxiv'- [www.Arxiv.org](www.Arxiv.org) is a popular open library of scientific papers on many topics- and gathered links to the scientific papers.
+To find out what is hot right now, this code listens to the stream of Twitter statuses with keyword 'arxiv'- [www.Arxiv.org](www.Arxiv.org) is a popular open library of scientific papers on many topics- and gathers links to the scientific papers.
 
 There are three steps to that process:
  - Gathering data: arxiv_tweets_get_data.ipynb
