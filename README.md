@@ -12,4 +12,4 @@ If you are interested in the results, I recommend looking at the arxiv_tweets_vi
 
 **WARNING** : If you want to run arxiv_tweets_get_data.ipynb yourself, you will have to supply your own Twitter API acces keys (link to tutorial included in the notebook)
 
-**Data gathering is still under process**
+The data was gathered during 24 hours on 18th and 19th january 2017. 
